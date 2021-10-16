@@ -1,0 +1,193 @@
+<!-- 
+Help Page for COVID-19 Reporter
+Author: Shine Jayakumar
+Email: shinejayakumar@yahoo.com
+COVID-19 Reporter Copyright (c) 2020 Shine Jayakumar. All Rights Reserved
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Reporter - Help</title>
+</head>
+<body>
+    <div id="banner">
+        COVID-19 Reporter<img src="img/icon48.png" width="32" height="32" alt="">  
+        <span id="version">Version 1.0.0.7</span>
+    </div> 
+
+    
+
+    <div id="container">
+        
+        <div id="header">
+            <h2>Help - Topics</h2>
+        </div>
+
+        <nav id="navbar">
+            <ul>    
+                    <li>
+                        <div class="buttonContainer">
+                            <button id="btnSummary">Summary</button>
+                            <div id="summaryTopics">
+                                <ul class="sub-topics">
+                                    <li><a href="#topicWorldSummary">Worldwide Summary</a></li>
+                                    <li><a href="#topicCountrySummary">Country Summary</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="buttonContainer">
+                            <button id="btnDetailed">Detailed</button>
+                            <div id="detailed">
+                                <ul class="sub-topics">
+                                    <li><a href="#topicColumnExplained">Columns Explained</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="buttonContainer">
+                            <button id="btnTimeSeries">Time Series</button>
+                            <div id="timeSeries">
+                                <ul class="sub-topics">
+                                    <li><a href="#topicViewChart">View Chart</a></li>
+                                    <li><a href="#topicApplyFilters">Apply Filters</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="buttonContainer">
+                            <button id="btnAllCountries">All Countries</button>
+                            <div id="allCountries">
+                                <ul class="sub-topics">
+                                    <li><a href="#topicAllCountrySummary">All country summary</a></li>
+                                    <li><a href="#topicSearchCountry">Search a country</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="buttonContainer">
+                            <button id="btnOptions">Options</button>
+                            <div id="options">
+                                <ul class="sub-topics">
+                                    <li><a href="#topicNotifications">Notifications</a></li>
+                                    <li><a href="#topicRememberTab">Remember last opened tab</a></li>
+                                    <li><a href="#topicUpdateFrequency">Update frequency</a></li>
+                                    <li><a href="#topicDefaultSettings">Default settings</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+            </ul>
+            
+        </nav>
+
+        <br>
+        
+        <div class="topics">
+            <div id="topicWorldSummary">
+                <h3>Summary Tab - World Summary</h3>
+                <p><strong>Summary Tab</strong>, defaults to the total number of confirmed cases, recovered, and deaths. It can also be accessed by clicking on, <strong>globe</strong> icon.</p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicCountrySummary">
+                <h3>Summary Tab - Country Summary</h3>
+                <p>If you want to view a quick summary of cases (total cases, recovered, and deaths) for a county, you can choose a country from the drop-down menu.</p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicColumnExplained">
+                <h3>Detailed Tab - Column Explained</h3>
+                <p><strong>Detailed Tab</strong>, presents you detailed information about the cases</p>
+                <p>
+                    <strong>New</strong> - New cases reported (confirmed, or deaths)<br>
+                    <strong>Active</strong> - Currently active cases (confirmed cases)<br>
+                    <strong>Critical</strong> - Critical cases under observation<br>
+                    <strong>Total</strong> - Total cases
+                 </p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicViewChart">
+                <h3>Time Series - Charts</h3>
+                <p>
+                    <strong>Time Series Tab</strong>, allows you to visualize data with line charts for confirmed cases, recovered, and deaths registered. Each is represented with a different colour. <br>
+                    Choose a country from the drop-down menu to load the chart for a country.
+                </p>
+            </div>
+        </div>
+        
+        <div class="topics">
+            <div id="topicApplyFilters">
+                <h3>Time Series - Applying Filters</h3>
+                <p>Sometimes lines for, confirmed cases, recovered, and deaths could overlap. You can click on - confirmed, recovered, or deaths, in the legend to hide or show them.</p>
+                <p><img src="img/time_series.gif" alt=""></p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicAllCountrySummary">
+                <h3>All Countries Tab</h3>
+                <p><strong>All Countries Tab</strong>, shows you a summary of confirmed cases, recovered, and deaths for all affected countries, and sorts them in descending order.</p>
+            </div>
+        </div>
+        
+        <div class="topics">
+            <div id="topicSearchCountry">
+                <h3>All Countries - Search a country</h3>
+                <p><strong>Search bar</strong>, allows you to search for a particular country</p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicNotifications">
+                <h3>Options - Notifications</h3>
+                <p>You can set this to let COVID-19 Reporter notify you when it has looked for new data from the source.</p>
+                <img src="img/options_launch128.gif"alt="">
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicRememberTab">
+                <h3>Options - Remember Tab</h3>
+                <p>Setting this option would let, COVID-19 Reporter, remember the tab you were on last time and loads information for the country you chose.</p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicUpdateFrequency">
+                <h3>Options - Update Frequency</h3>
+                <p>COVID-19 Reporter, looks for updates every 2 hours. You can change the frequency by choosing the time interval from the drop-down.</p>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div id="topicDefaultSettings">
+                <h3>Options - Default Setting</h3>
+                <p>Clicking on, <strong>Default</strong> button allows you to reset the options to default.</p>
+            </div>
+        </div>
+
+    </div><!-- container -->
+    
+    <div id="footer">COVID-19 Reporter Copyright &copy; 2020 Shine J</div>
+    
+    <script src="help.js"></script>
+    <link rel="stylesheet" href="help.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda|Roboto|&display=swap" rel="stylesheet">
+</body>
+</html>

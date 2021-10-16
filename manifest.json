@@ -1,0 +1,36 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "COVID-19 Reporter",
+    "version": "1.0.0.7",
+    "description": "Brings you updates on new cases of COVID-19 (Coronavirus)",
+    "manifest_version": 2,
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "browser_action": {
+        "default_title": "COVID-19 Reporter",
+        "default_icon": "img/icon48.png",
+        "default_popup": "popup.html"
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    },
+
+    "icons": {
+        "128": "img/icon128.png",
+        "48": "img/icon48.png",
+        "16": "img/icon16.png"
+    },
+
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+    ]
+}

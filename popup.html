@@ -1,0 +1,156 @@
+<!-- 
+popup.html
+Author: Shine Jayakumar
+Email: shinejayakumar@yahoo.com
+COVID-19 Reporter Copyright (c) 2020 Shine Jayakumar. All Rights Reserved 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Reporter</title>
+    
+</head>
+<body>
+    <div id="firstRow">
+        <div id="help">
+           <button id="btnHelp" title="Help"><img src="img/help48.gif" width="16" height="16" alt=""></button> 
+        </div>
+        <div id="banner">
+            COVID-19 Reporter<img src="img/icon48.png" width="32" height="32" alt="">  
+        </div> 
+    </div>
+
+    <div class="container">
+
+        <!-- <div class="header">
+            <div id="loc"></div> -->
+            
+                 
+        <!-- </div> -->
+
+        <div class="collect-details">
+            <select id="selectCountry">
+                <option value="" disabled selected hidden>Select Country</option>
+            </select>
+            <button id="globe" title="Worldwide"><img id="imgGlobe" src="img/earth48.png" width="32" height="32"/></button>
+        </div>
+        
+        <div id="summary" class="tabcontent">
+
+            <div class="output-summary">
+                <table id="countrySummary">
+                
+                <tr>
+                    <th colspan="3">-</th>                  
+                    </tr>
+                    <tr>
+                        <td>TOTAL CASES</td>
+                        <td>RECOVERED</td>
+                        <td>DEATHS</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    
+                
+                </table>
+            </div>
+        </div>
+
+        <div id="detailed" class="tabcontent" style="display:none;">
+            
+            <div class="output-detailed">
+                <table id="countryDetailed">
+                    <tr>
+                        <th colspan="3">-</th>                  
+                    </tr>
+                    <tr>
+                        <td colspan="4">CASES</td><td>RECOVERED</td><td colspan="2">DEATHS</td>
+                    </tr>
+                    <tr>
+                        <td>New</td>
+                        <td>Active</td>
+                        <td>Critical</td>
+                        <td>Total</td>
+                        <td>Total</td>
+                        <td>New</td>
+                        <td>Total</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Cases/Million: <span id="casesPerMil" class="strong"></span></td>
+                        <td colspan="3">Deaths/Million: <span id="deathsPerMil" class="strong"></span></td>
+                    </tr>    
+                    <tr>
+                        <td colspan="4">Recovery Percentage: <span id="recoveryPerc" class="strong"></span>%</td>
+                        <td colspan="3">Death Percentage: <span id="deathPerc" class="strong"></span>%</td>
+                    </tr>             
+                </table>
+            </div>
+        </div>
+
+        <div id="timeSeries" class="tabcontent" style="display:none;">
+            <div class="collect-details-timeseries">
+                <select id="selectCountryTimeSeries" >
+                    <option value="" disabled selected hidden>Select Country</option>
+                </select>
+                
+                <div style="width: 600; height: 400;">
+                    <canvas id="chartTimeSeries" width="600" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="allCountries" class="tabcontent" style="display:none;">
+            
+            <div class="header-allCountry">
+                Worldwide
+            </div>
+            <input type="text" id="searchCountry" placeholder="Search country..."/>
+            <div class="output-all"  style="overflow: auto;">
+                
+                <table id="countryAll">
+                    <tr>
+                        <th>#</th><th>Country</th><th>Cases</th><th>Recovered</th><th>Deaths</th>
+                    </tr>                    
+                </table>
+            </div>
+           
+        </div>
+       
+        <div class="tabs">
+            <button id="btnSummary" class="tablinks" title="Summary of confirmed, recovered, and deaths">Summary</button>
+            <button id="btnDetailed" class="tablinks" title="Detailed information on cases">Detailed</button>
+            <button id="btnTimeSeries" class="tablinks" title="Chart based on cases">Time Series</button>
+            <button id="btnAll" class="tablinks" title="List all affected countries">All Countries</button>
+        </div>
+        <!-- <footer>
+           <span>COVID-19 Reporter Copyright &copy; 2020 Shine J</span>
+        </footer> -->
+    </div>
+    <div class="clear"></div>
+    <div class="pageBottom">
+        <div id="lastUpdated"></div>
+        <div id="cpyrght">COVID-19 Reporter Copyright &copy; 2020 Shine J</div>
+    </div>
+    
+    <script src="popup.js"></script>
+    <script src="scripts/Chart.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monda|Josefin+Sans|Roboto|Righteous|Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    
+</body>
+</html>

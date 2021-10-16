@@ -1,0 +1,88 @@
+<!-- 
+options.html
+Author: Shine Jayakumar
+Email: shinejayakumar@yahoo.com
+COVID-19 Reporter Copyright (c) 2020 Shine Jayakumar. All Rights Reserved
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Reporter - Options</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <h2>COVID-19 Reporter - Settings<img src="img/icon48.png" width="48" height="48"/></h2>
+        </div>
+        <br/>
+        <div class="options">
+            <table>
+                <tr>
+                    <th>Notifications and Update Frequency</th>
+                </tr>
+                <tr>
+                    <td class="col-text-align-right">Notify me when updated?</td>
+                    <td>
+                        <div>
+                                <select id="selectNotificationStatus">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <div class="img-align">
+                            <img src="img/tick.png" id="imgNStatus" width="16" height="" />
+                        </div>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td class="col-text-align-right">Remember last tab opened?</td>
+                    <td>
+                        <div>
+                            <select id="selectRememberLast">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <div class="img-align">
+                            <img src="img/tick.png" id="imgRemLast" width="16" height="16" />
+                        </div>
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td class="col-text-align-right">Update Frequency</td>
+                    <td> 
+                        <div>
+                            <select id="selectTimeInt">
+                                <option value="vs">Very Slow (5 hrs)</option>
+                                <option value="sl">Slow (2 hrs)</option>
+                                <option value="md">Moderate (1 hr)</option>
+                                <option value="fs">Fast (30 mins)</option>
+                                <option value="vf">Very Fast (15 mins)</option>
+                            </select>
+                        </div>
+                        <div class="img-align">
+                            <img src="img/tick.png" id="imgTimeInt" width="16" height="16" />
+                        </div>
+                    </td>
+                </tr>
+            </table> 
+            <div class="align-center">
+                <button id="btnSetDefault">Default</button><button id="btnSaveSettings">Save Settings</button>
+            </div>
+            <div id="success">Setting saved successfully</div>     
+            <div id="error">Only digits allowed, greater than 0; decimal points not allowed</div>
+        </div>
+
+    </div>
+        <script src="options.js"></script>
+        <link rel="stylesheet" type="text/css" href="options.css">
+        <link href="https://fonts.googleapis.com/css?family=Monda|Josefin+Sans|Roboto|Righteous|Rubik&display=swap" rel="stylesheet">
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+/*
+help.css - stylesheet for help
+
+Author: Shine Jayakumar
+Email: shinejayakumar@yahoo.com
+COVID-19 Reporter Copyright (c) 2020 Shine Jayakumar. All Rights Reserved */
+
+#banner{
+    
+    font-family: 'Monda', sans-serif, Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin:0;
+}
+#version{
+    font-size: 9px;
+    display:block;
+}
+#container{
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+#header{
+    padding: 3px 4px;
+    background-color: #1E1E1E;
+    color: #fff; 
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+}
+.topicHeading{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#navbar {
+    margin-left: 10px;
+}
+#navbar button{
+    width: 90%;
+    padding: 10px 10px;
+    text-align:left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #007ACC;
+    color: #fff;
+}
+#navbar ul{
+    list-style: none;
+    margin:0;
+}
+#navbar a{
+    text-decoration: none;
+    color: #000;
+}
+#navbar a:hover{
+    font-weight: 800;
+}
+#navbar a:visited{
+    color: #000;
+}
+.buttonContainer{
+    width: 90%;
+    margin: 4px 4px;
+}
+#summaryTopics, #detailed, #timeSeries, #allCountries, #options{
+    display: none;
+    width: 90%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.sub-topics li{
+    padding: 4px 4px;
+}
+.topics{
+    margin-left: 10px;
+    width: 90%;
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+.topics h3 {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.topics p{
+    padding: 4px 4px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: gray;
+    width: 100%;
+    margin-top: 10px;
+   
+}
