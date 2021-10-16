@@ -1,4 +1,6 @@
 /*
+COVID-19 Reporter
+
 Help.js - script for Help file - COVID-19 Reporter
 Author: Shine Jayakumar
 Email: shinejayakumar@yahoo.com

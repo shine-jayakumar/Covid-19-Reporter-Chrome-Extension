@@ -1,4 +1,6 @@
 /*
+    COVID-19 Reporter
+    
     options.js
     Holds functions for options page
 

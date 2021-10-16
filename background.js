@@ -1,4 +1,6 @@
 /*
+COVID-19 Reporter
+
 background.js
 Author: Shine Jayakumar
 Email: shinejayakumar@yahoo.com

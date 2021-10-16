@@ -1,4 +1,6 @@
 /*
+COVID-19 Reporter
+
 popup.js
 Author: Shine Jayakumar
 Email: shinejayakumar@yahoo.com
