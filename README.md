@@ -1,4 +1,5 @@
 # Covid-19 Reporter
+![MIT License](https://img.shields.io/github/license/shine-jayakumar/Covid19-Exploratory-Analysis-With-SQL)
 
 COVID-19 Reporter is a lightweight Chrome extension that brings you the latest reports/updates on COVID-19 (coronavirus) cases from reliable sources.
 
@@ -23,6 +24,6 @@ https://pomber.github.io/covid19/timeseries.json
 https://chrome.google.com/webstore/detail/covid-19-reporter/ojibodgofbgimjfhapealdllclagbejh
 
 ## LICENSE
-MIT
+[MIT](https://github.com/shine-jayakumar/Covid-19-Reporter-Chrome-Extension/blob/main/LICENSE)
 
 
